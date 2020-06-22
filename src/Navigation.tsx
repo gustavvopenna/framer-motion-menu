@@ -1,8 +1,8 @@
 import * as React from "react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { MenuItem } from "./MenuItem";
 
-const variants = {
+const variants: Variants = {
   open: {
     transition: { staggerChildren: 0.07, delayChildren: 0.2 }
   },
